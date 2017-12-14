@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lyft</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<body>
+
+  <header class="container">
+       <div class="row">
+         <div class="col-xs-12 hr">
+           <a href="index.html"><span class="glyphicon glyphicon-chevron-left"></span></a>
+           <h1 class="text-center">Sign up</h1>
+           <h5 class="text-center">Join now for free ride credit</h5>
+         </div>
+       </div>
+     </header>
+     <section id="submit-phone">
+       <div class="container">
+         <div class="row">
+           <div class="col-xs-12 text-center">
+
+             <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#myModal"><img src="assets/img/chile.png" class="miniflag" id="showflag"></a>
+
+             <div id="myModal" class="modal" role="dialog">
+              <ul id="c-flag">
+               <li><a href="#" id="chile">Chile <img class="imgflag chi" src="assets/img/chile.png"></a></li>
+               <li><a href="#" id="mex">Mexico <img class="imgflag me" src="assets/img/mexico.png"></a></li>
+               <li><a href="#" id="peru">Perú <img class="imgflag pe" src="assets/img/peru.png"></a></li>
+              </ul>
+              <button type="button" data-dismiss="modal" class="text-right btnmodal">close</button>
+             </div>
+             <a id="code">+56</a>
+             <input type="number" name="phone" class="required" id="inputt">
+             <div class="alert alert-warning"></div>
+
+             <h5>We'll send a text to verify your phone</h5>
+             <a href="index3.html" type="button" class="btn-block" id="next-button" style="display: none;">NEXT</a>
+           </div>
+         </div>
+       </div>
+     </section>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
